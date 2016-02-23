@@ -1,7 +1,7 @@
-# Pre-work - *Tip*
+# Pre-work - *Tips*
 
 
-**Tip** is a tip calculator application for iOS.
+**Tips** is a tip calculator application for iOS.
 
 Submitted by: **Lê Viết Hoàng Dũng**
 
