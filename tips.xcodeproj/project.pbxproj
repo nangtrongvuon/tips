@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E10670A61C77FE1300F27431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10670A51C77FE1300F27431 /* AppDelegate.swift */; };
-		E10670A81C77FE1300F27431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10670A71C77FE1300F27431 /* ViewController.swift */; };
+		E10670A81C77FE1300F27431 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10670A71C77FE1300F27431 /* TipViewController.swift */; };
 		E10670AB1C77FE1300F27431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10670A91C77FE1300F27431 /* Main.storyboard */; };
 		E10670AD1C77FE1300F27431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10670AC1C77FE1300F27431 /* Assets.xcassets */; };
 		E10670B01C77FE1300F27431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10670AE1C77FE1300F27431 /* LaunchScreen.storyboard */; };
+		E10670B81C7811B300F27431 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10670B71C7811B300F27431 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E10670A21C77FE1300F27431 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10670A51C77FE1300F27431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E10670A71C77FE1300F27431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E10670A71C77FE1300F27431 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		E10670AA1C77FE1300F27431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E10670AC1C77FE1300F27431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10670AF1C77FE1300F27431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10670B11C77FE1300F27431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10670B71C7811B300F27431 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				E10670A51C77FE1300F27431 /* AppDelegate.swift */,
-				E10670A71C77FE1300F27431 /* ViewController.swift */,
+				E10670A71C77FE1300F27431 /* TipViewController.swift */,
 				E10670A91C77FE1300F27431 /* Main.storyboard */,
+				E10670B71C7811B300F27431 /* SettingsViewController.swift */,
 				E10670AC1C77FE1300F27431 /* Assets.xcassets */,
 				E10670AE1C77FE1300F27431 /* LaunchScreen.storyboard */,
 				E10670B11C77FE1300F27431 /* Info.plist */,
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10670A81C77FE1300F27431 /* ViewController.swift in Sources */,
+				E10670A81C77FE1300F27431 /* TipViewController.swift in Sources */,
 				E10670A61C77FE1300F27431 /* AppDelegate.swift in Sources */,
+				E10670B81C7811B300F27431 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
