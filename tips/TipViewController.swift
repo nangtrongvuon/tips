@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     }
     @IBAction func onEditingStart(sender: AnyObject) {
         self.resultView.alpha = 0
+        billField.text?.removeAll()
     }
     
 
