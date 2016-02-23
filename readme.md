@@ -25,7 +25,8 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-![Video Walkthrough](demo.gif)
+![Video Walkthrough on iPhone 5](demo.gif)
+![Video Walkthrough on iPhone 6](demo2.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
