@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var resultView: UIView!
     @IBOutlet weak var tipControl: UISegmentedControl!
@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         billField.endEditing(true)
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -49,6 +50,7 @@ class ViewController: UIViewController {
         billField.text?.removeAll()
     }
     
+        
 
     @IBAction func onEditing(sender: AnyObject) {
         
@@ -94,6 +96,15 @@ class ViewController: UIViewController {
         if billField.text!.isEmpty == false {
         view.endEditing(true)
         }
+    }
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        let invalidCharacters = NSCharacterSet.alphanumericCharacterSet().invertedSet
+        if string == invalidCharacters {
+            return false
+        }
+        
+        return true
     }
 }
 
