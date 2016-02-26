@@ -99,8 +99,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        let invalidCharacters = NSCharacterSet.alphanumericCharacterSet().invertedSet
-        if string == invalidCharacters {
+        textField.delegate = self
+        let validCharacters = NSCharacterSet.decimalDigitCharacterSet()
+        let dotCount = textField.text?.componentsSeparatedByString(".").count
+        
+        if dotCount > 0 && string == "." || string != validCharacters {
             return false
         }
         
